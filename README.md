@@ -1,22 +1,22 @@
-# 📦 Project Name
+# Python CFD
 
-> Short project description (1-2 sentences).  
-> Example: A lightweight tool for managing and visualizing JSON data in the browser.
+> A simple, but fast, Python implementation of the Navier Stokes equations in 2 (and maybe 3!) dimensions. Speed is achieved by using just-in-time compilation through Numba, which also allows for CPU parallelization. GPU parallelization will also be implemented with CUDA, through its Numba implementation.
 
 ---
 
-## 🚀 Features
+## Features
 
-- Feature 1 – Brief description
-- Feature 2 – Brief description
-- Feature 3 – Brief description
+- 2D incompressible flow (Chorin Projection)
 
 ---
 
 ## 🛠️ Installation
 
 ### Prerequisites
-- [List any required software or libraries]
+- Python >= 3.12
+- Numba
+- CUDAtoolkit (optional)
+- NVCC (optional)
 
 ### Steps
 
