@@ -1,7 +1,6 @@
 # Python CFD
 
-> A simple and fast Python implementation of the Navier Stokes equations in 2 (and maybe 3!) dimensions. Speed is achieved by using just-in-time compilation through Numba, which also allows for CPU parallelization. GPU parallelization will also soon be implemented with CUDA, through Numba.
-
+> A simple and fast Python implementation of the Navier Stokes equations in 2 (and maybe 3!) dimensions. Speed is achieved by using just-in-time compilation through Numba, which also allows for CPU (& GPU) parallelization. 
 ---
 
 ## Features
