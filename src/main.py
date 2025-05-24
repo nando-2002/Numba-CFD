@@ -17,9 +17,25 @@ def main():
     nvidia_gpu_present = False              #if nvidia gpu present, with cudatoolkits installed, we can run it on the gpu
     
     if nvidia_gpu_present == True:
-        gpu.solve_with_gpu(number_of_grid_steps, time_step_size, time_step_count, kinematic_viscosity, horiz_velocity, density, poisson_iterations)
+        gpu.solve_with_gpu(
+            number_of_grid_steps, 
+            time_step_size, 
+            time_step_count, 
+            kinematic_viscosity, 
+            horiz_velocity, 
+            density, 
+            poisson_iterations
+            )
     else:
-        cpu.solve_with_cpu(number_of_grid_steps, time_step_size, time_step_count, kinematic_viscosity, horiz_velocity, density, poisson_iterations)
+        cpu.solve_with_cpu(
+            number_of_grid_steps, 
+            time_step_size, 
+            time_step_count, 
+            kinematic_viscosity, 
+            density, 
+            poisson_iterations
+            )
+            
 
     pass
 
