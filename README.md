@@ -1,30 +1,11 @@
 # Numba CFD
 
-### A simple and fast Python implementation of the Navier Stokes equations in 2 (and maybe 3!) dimensions. Speed is achieved by using just-in-time compilation through Numba, which also allows for CPU & GPU parallelization. 
----
+A simple and fast implementation of the incompressible Navier Stokes equations in Python with Numba.
 
-## Features
+## Requirements
 
-- 2D incompressible flow (Chorin Projection)
-
----
-
-## 🛠️ Installation
-
-### Prerequisites
-- Python >= 3.12
+- Python 3.12
 - Numba
-- CUDAtoolkit (optional)
-- NVCC (optional)
-
-### Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-# Navigate to the project directory
-cd your-repo-name
-
-# Install dependencies
-npm install
+- Matplotlib
+- Numpy
+- Cudatoolkit (optional)
