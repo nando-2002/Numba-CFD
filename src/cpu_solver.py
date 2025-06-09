@@ -55,7 +55,7 @@ def solve_with_cpu(NX, DT, NT, nu, rho, poisIT):
     PRES_NOW = np.zeros((NX, NX))
 
     VEL_NEXT_U = np.zeros((NX, NX))
-    VEL_NEXT_V = np.zeros((NX, NX))
+    VEL_NEXT_V = np.zeros((NX, NX)) 
     PRES_NEXT = np.zeros((NX, NX))
 
     for i in range(NT):
