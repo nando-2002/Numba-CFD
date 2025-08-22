@@ -8,4 +8,3 @@ A simple and fast implementation of the incompressible Navier Stokes equations i
 - Numba
 - Matplotlib
 - Numpy
-- Cudatoolkit (optional)
